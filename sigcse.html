@@ -33,14 +33,14 @@
 
 <img id="adventure" width="400" height="400" src="ethics/IMG_9871.jpeg" hidden>
 <body onload="draw();">
-            <canvas id="canvas" width="200" height="200" style="border:5px solid #ffffff;"></canvas>
+            <canvas id="canvas" width="400" height="400" style="border:5px solid #ffffff;"></canvas>
             <p><button onclick="doodle()">Whats the adventure today?</button></p>
                <script>
                 function doodle() {
                   var c = document.getElementById("canvas");
                   var ctx = c.getContext("2d");
                   var img = document.getElementById("adventure");
-                  ctx.drawImage(img, 10, 10, 400, 400);
+                  ctx.drawImage(img, 10, 10, 200, 200);
                 }
                 </script>        
 <body>
