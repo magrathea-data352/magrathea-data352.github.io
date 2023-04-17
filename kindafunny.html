@@ -7,14 +7,24 @@
 
         body {
           padding: 20px;
-          background-color: green;
-          color: white;
+          background-color: red;
+          color: black;
           font-size: 20px;
         }
+        .dark-mode {
+	      padding: 20px;
+	      background-color: black;
+	      color: red;
+	      font-size: 20px;
+	    }
         
     </style>
 </head>
 <body>
+    <button onclick="darkMode()">Dark Mode</button>
+  	<script> 
+	   function darkMode() {document.body.classList.toggle("dark-mode")}
+    </script>
     <p><strong>main</strong></p>
     <br>
     <p>1</p>
